@@ -1,0 +1,159 @@
+html {
+  font-size: 22px;
+  font-family: helvetica, arial, sans-serif;
+  background-color: black;
+  opacity: 0.9;
+  color: seashell;
+}
+
+/*---------------------- NAVBAR-------------- */
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  width: auto;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.menu_list li {
+  text-align: left;
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 15px;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor_primero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(/images/img-mission-background.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 1800px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.barra_mision {
+  width: 100%;
+  background-color: black;
+  height: 130px;
+}
+
+.barra_mision h2, .barra_mision h4 {
+  text-align: center;
+}
+
+.barra_mision h2 {
+  margin-top: 25px;
+  margin-bottom: 13px;
+}
+
+.barra_mision h4 {
+  margin-top: 14px;
+}
+
+.contenedor_segundo h2, .contenedor_segundo h4 {
+  text-align: center;
+}
+
+.contenedor_segundo h2 {
+  margin-top: 50px;
+}
+
+.contenedor_engloba, .contenedor_engloba2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor_tercero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor_tercero img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.teup img, .tedown img {
+  margin-bottom: 10px;
+  margin-right: 25px;
+}
+
+.teup h4, .tedown h4 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.contenedor_cuarto {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("/images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: 0px;
+  background-repeat: space;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  margin-left: 40px;
+  opacity: 1;
+}
+
+.cards h3 {
+  margin-top:15px;
+}
+
+footer {
+  height: 200px;
+}
+
+footer h2, footer h5, footer p {
+  text-align: center;
+}
+
+.copyright{
+  text-align: left;
+}
